@@ -10,7 +10,7 @@ $mail->IsSMTP();                                      // set mailer to use SMTP
 $mail->Host = $host;  // specify main and backup server
 $mail->SMTPAuth = true;     // turn on SMTP authentication
 $mail->Username = "amahato";        // SMTP authentication username
-$mail->Password = "Animator";        // SMTP authentication password
+$mail->Password = "";        // SMTP authentication password
 $mail->From = $from;
 $mail->FromName = $name;
 $mail->AddReplyTo($from, $name);
